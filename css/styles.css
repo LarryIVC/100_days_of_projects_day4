@@ -17,6 +17,7 @@ body {
   display: grid;
   place-items: center;
   color: #12163c;
+  font-size: 16px;
 }
 
 article {
@@ -25,70 +26,70 @@ article {
   background: #f6f9ff;
   border-radius: 60px;
   box-shadow: 10px 10px 0px 0px rgba(229, 237, 255, 1);
-  max-width: 996px;
+  max-width: 62.25rem;
   height: auto;
 }
 
 header {
   display: flex;
   flex-direction: column;
-  padding: 82px;
+  padding: 5.125rem;
   padding-bottom: 0;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 h1 {
   font-family: "Merriweather", serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 900;
-  line-height: 41px;
+  line-height: 2.5625rem;
 }
 
 header > p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
-  line-height: 27px;
+  line-height: 1.6875rem;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 82px;
-  gap: 82px;
+  padding: 5.125rem;
+  gap: 5.125rem;
 }
 
 .pie {
   position: relative;
-  width: 206;
-  height: 206;
+  width: 12.875rem;
+  height: 12.875rem;
   margin: 0 auto;
 }
 
 .pie > canvas {
-  width: 206px;
-  height: 206px;
+  width: 12.875rem;
+  height: 12.875rem;
   filter: drop-shadow(5px 5px 2px #dae4ff);
 }
 
 .pie > p {
   position: absolute;
-  top: calc(50% - 18px / 2);
+  top: calc(50% - 1.125rem / 2);
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
-  line-height: 27px;
+  line-height: 1.6875rem;
   text-align: center;
 }
 
 .data {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  width: 517px;
-  font-size: 18px;
+  gap: 1rem;
+  width: 32.3125rem;
+  font-size: 1.125rem;
   font-weight: 500;
-  line-height: 27px;
+  line-height: 1.6875rem;
 }
 
 .data-row {
@@ -98,16 +99,16 @@ header > p {
 }
 
 .line {
-  height: 18px;
+  height: 1.125rem;
   /* background: #6792ff; */
   border-radius: 4px;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .value {
   text-align: start;
-  width: 80px;
+  width: 5rem;
   display: inline-block;
 }
 
@@ -115,7 +116,7 @@ header > p {
   color: #1a52e1;
   text-align: right;
   transition: all 0.3s ease-in-out;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
 }
 
@@ -125,8 +126,12 @@ header > p {
 }
 
 @media (max-width: 720px) {
+  body {
+    font-size: 11px;
+  }
+
   .container {
     flex-direction: column;
-    padding: 41px;
+    padding: 2.5625rem;
   }
 }
