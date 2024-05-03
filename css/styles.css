@@ -131,7 +131,7 @@ header > p {
   }
 
   article {
-    max-width: 350px;
+    max-width: 100%;
   }
 
   .container {
