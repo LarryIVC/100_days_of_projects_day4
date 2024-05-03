@@ -130,6 +130,10 @@ header > p {
     font-size: 11px;
   }
 
+  article {
+    max-width: 350px;
+  }
+
   .container {
     flex-direction: column;
     padding: 2.5625rem;
